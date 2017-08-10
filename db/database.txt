@@ -1,0 +1,14 @@
+Create table users(
+
+user_id SERIAL,
+username Text,
+password Text,
+email Text,
+role_id SERIAL)
+
+
+
+
+create table roles(
+role_id SERIAL,
+role_name text)
